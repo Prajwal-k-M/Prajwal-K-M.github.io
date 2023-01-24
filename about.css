@@ -296,15 +296,14 @@ background-color:  rgb(224, 223, 223);
 
 
 .trans-item{
-    /* padding: 2rem; */
+    padding: 2rem;
     margin: 2rem;
     min-height: 400px;
-    /* min-width: 200px; */
     border-radius: 8px;
     border-bottom-right-radius: 8px;
     background-image: url(images/background.jpg);
     background-position: 50% 50%;
-    background-size: 750px;
+    background-size: 900px;
     background-repeat: repeat;
     background-attachment: fixed;
 }
