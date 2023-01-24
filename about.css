@@ -144,27 +144,7 @@ margin: 0;
 
 /* ========================================================== */
 /* ========================================================== */
-/* @media screen and (min-width:700px) { */
-    /* .for-my-image{
-        min-width:20rem ;
-        min-height: 15rem;
-        background-color: red;
-        position: relative;
-        overflow: hidden;
-        margin: 1rem;
-    }
-    .for-my-image:after{
-        position: absolute;
-        content: '';
-        background-color: rgb(64, 169, 221);
-        border-top-left-radius: 60%;
-        border-top-right-radius: 15%;
-        border-bottom-left-radius: 15%;
-        border-bottom-right-radius: 60%;
-        inset: 0;
-        transform: scale(1.1,1.1);
-        transition: all 5s ease-in-out;
-    } */
+
 
 .nth{
     padding: 0.5rem;
@@ -237,13 +217,7 @@ margin: 0;
     'seven seven . eight eight'
     ; 
     --gap:2rem;
-    /* margin: 1rem;
-    padding: 1rem; */
-    /* background-image: url(/project2/images/background.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover; */
-    /* color: silver; */
+
 }   
 
 
