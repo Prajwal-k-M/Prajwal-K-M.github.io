@@ -10,7 +10,7 @@
 
 body{
     background-color: black;
-    min-height: 300vh;
+    /* min-height: 300vh; */
     position: relative;
     z-index: 1;
 }
@@ -127,13 +127,7 @@ header{
    /* margin: 0 4rem; */
 }
 
-.footer-item1{
-    display: inline;
-    text-align: start;
-    /* border-right: 2px solid silver ; */
-    padding: 5rem;
-    width: 30rem;
-}
+
 .footer-item2{
 align-items:center ;
 justify-content: center;

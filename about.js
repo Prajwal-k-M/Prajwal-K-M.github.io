@@ -23,6 +23,7 @@ if(event.target!==pop )
 {
     console.log("hi");
     pop_up.setAttribute("aria-hidden",true);
+    login.style.color="white";
 }
 });
 
@@ -44,21 +45,23 @@ login.addEventListener('click',()=>{
 
 
 
-// Get the container element
-// var transparent = document.querySelector(".transp");
+const observer = new IntersectionObserver ((entries) => {
+     entries.forEach((entry) => {
 
-// // Get the current scroll position of the body
-// var bodyScrollTop = 0;
-
-// // Add an event listener for the scroll event on the body
-// document.body.addEventListener("scroll", function() {
-//     // Get the new scroll position of the body
-//     bodyScrollTop = document.body.scrollTop;
-//     // Apply the scrollTop value to the container element
-//     container.style.top = -bodyScrollTop + "10px";
-// });
-
-
+    console.log(entry)
+    
+    if (entry.isIntersecting) { 
+        entry.target.classList.add('show');
+    } 
+    else {
+    entry.target.classList.remove('show');
+    }
+    });
+    
+    });
+    
+    const hiddenElements = document.querySelectorAll('.hidden');
+     hiddenElements.forEach((el) => observer.observe (el));
 
 
 
