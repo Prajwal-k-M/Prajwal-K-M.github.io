@@ -328,7 +328,7 @@ background-color:  rgb(224, 223, 223);
     /* min-width: 200px; */
     border-radius: 8px;
     border-bottom-right-radius: 8px;
-    background-image: url(/project2/images/background.jpg);
+    background-image: url(images/background.jpg);
     background-position: 50% 50%;
     background-size: 750px;
     background-repeat: repeat;
@@ -346,7 +346,7 @@ background-color:  rgb(224, 223, 223);
     padding: 1rem;
     z-index: -30;
     margin-bottom: 2rem;
-    background: url(/project2/images/lamp.jpg) no-repeat;
+    background: url(images/lamp.jpg) no-repeat;
 }
 
 .light{
