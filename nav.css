@@ -19,6 +19,7 @@ body{
 /* header section */
  .fontcolor,.item{
     color: white;
+    font-family: 'Work Sans', sans-serif;
  }  
 .flex{
 display: flex;
