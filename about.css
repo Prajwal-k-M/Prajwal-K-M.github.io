@@ -273,7 +273,7 @@ section.a{
 
 
 .transp{
-   height: 600px;
+   min-height: 600px;
     border: 2px solid red;
    border-radius: 30px;
     width: 80vw;
@@ -296,14 +296,14 @@ background-color:  rgb(224, 223, 223);
 
 
 .trans-item{
-    padding: 2rem;
-    margin: 2rem;
-    min-height: 400px;
+    padding: 3rem;
+    margin: 1rem;
+    min-height: 446px;
     border-radius: 8px;
     border-bottom-right-radius: 8px;
     background-image: url(images/background.jpg);
     background-position: 50% 50%;
-    background-size: 900px;
+    background-size: 1187px;
     background-repeat: repeat;
     background-attachment: fixed;
 }
